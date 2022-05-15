@@ -1,0 +1,277 @@
+.footer{
+    letter-spacing: 2em;
+text-transform: uppercase;
+}
+.aboutMe__main {
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+
+
+
+.aboutMe__strelka-resurs {
+
+    align-items: stretch;
+    text-transform: uppercase;
+    display: flex;
+    /*align-items: baseline;*/
+    height: 50px;
+    color: #FFFFFF;
+    font-family: Arial,Helvetica,sans-serif;
+    font-Weight: 400;
+    font-Style: normal;
+    font-Size: 29px;
+    Line-height: 60px;
+}
+
+.aboutMe__myName {
+    padding-top: 62px;
+    padding-bottom: 8px;
+    max-width: 600px;
+    padding-left: 0;
+    height: 58px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    width: 100%;
+    background-color: #202020;
+    color: #FFFFFF;
+    font-size: 58px;
+    margin: 0;
+    display: flex;
+}
+
+.aboutMeLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe__descriptionFoto {
+    width: 100%;
+    /*    padding: 0 70px;*/
+    display: flex;
+    background-color: #202020;
+}
+
+
+.a {
+    grid-template-rows: repeat(1, 29px);
+    grid-template-columns: repeat(2, 231px);
+}
+
+.links {
+    flex-direction: row;
+    display: flex;
+   /* width: 100vw;*/
+    margin-top: 40px;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    font-family: 'Inter', serif;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: 2px solid #3c3838;
+    background-color: #000000;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+}
+
+.aboutMe__connect {
+    /* padding-left: 0;*/
+    width: 100%;
+    background-color: #202020;
+    padding: 0 70px 100px 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+
+
+
+.aboutMe__work {
+    width: 100%;
+    /* padding: 0 70px;*/
+    max-width: 600px;
+    background-color: #202020;
+    padding-top: 18px;
+    padding-bottom: 26px;
+    margin: 0;
+    display: flex;
+    font-weight: 500;
+    font-style: normal;
+    size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.aboutMeTitleAbout {
+    height: 88px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    padding-right: 270px;
+    width: 100%;
+    margin: 0;
+    background-color: #202020;
+    max-width: 600px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.aboutMelinks {
+    width: 100%;
+    max-width: 880px;
+}
+
+.aboutMe__lineSimple {
+    font-family: Arial,Helvetica,sans-serif;
+    width: 100%;
+    background-color: #202020;
+    max-width: 1140px;
+    color: #424242;
+    display: flex;
+}
+
+.aboutMeLinkStatic {
+    height: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    width: 100%;
+    max-height: 50px;
+    background-color: #202020;
+    color: #FFFFFF;
+    line-height: 16px;
+    font-size: 30px;
+    text-decoration: none;
+    padding-bottom: 19px;
+    padding-top: 20px;
+    border-bottom: 1px solid #424242;
+}
+
+.aboutMeLinkStaticAnotherStyle {
+    border-bottom: none;
+}
+
+.aboutMe__strelka {
+    display: contents;
+    width: 29px;
+    height: 60px;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 620px) {
+    .aboutMe__descriptionFoto {
+        flex-direction: column-reverse;
+    }
+
+    .aboutMe__main {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    .aboutMe__whoIS {
+        font-family: 'Inter', serif;
+        Font-weight: 400;
+        Font-size: 18px;
+        Line-height: 22px;
+        Letter-spacing: -0.04em;
+        padding-bottom: 28px;
+    }
+
+
+
+    .aboutMe__myName {
+        Font-weight: 400;
+        Font-size: 30px;
+        Line-height: 36px;
+        Letter-spacing: -0.04em;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .aboutMe__work {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .aboutMeTitleAbout {
+        width: 292px;
+        height: 112px;
+        padding-right: 0;
+        font-family: 'Inter', serif;;
+        font-weight: 400;
+        Font-size: 11px;
+        Line-height: 16px;
+        padding-bottom: 40px;
+    }
+
+    .aboutMe__connect {
+        padding: 0;
+    }
+
+
+
+    .aboutMeLinkStatic {
+        font-family: Arial,Helvetica,sans-serif;
+        font-weight: 400;
+        letter-spacing: -0.04em;
+        max-height: 50px;
+        line-height: 28px;
+        font-size: 18px;
+    }
+
+    .aboutMe__strelka-resurs {
+        font-family: 'Inter', serif;
+        font-Size: 18px;
+        Line-height: 28px;
+        align-items: baseline;
+    }
+
+    .links {
+        padding-bottom: 14px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 920px) {
+
+    .aboutMe__main {
+        padding-top: 90px;
+        padding-bottom: 0;
+    }
+
+    .aboutMe__myName {
+        Font-size: 40px;
+        Line-height: 40px;
+        padding-top: 66px;
+        padding-bottom: 16px;
+    }
+
+    .aboutMe__work {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .aboutMeTitleAbout {
+        font-size: 12px;
+        Line-height: 18px;
+        max-width: 364px;
+        max-height: 108px;
+        padding-bottom: 87px;
+    }
+
+    .aboutMe__connect {
+        padding-bottom: 90px;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .aboutMe__portfolio {
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+}

@@ -1,53 +1,11 @@
-
-
-html{
-font-family: SBSans,Arial,Helvetica,sans-serif;
-position: absolute;
-/*height: 2335px;*/
-/*top: 240px;*/
-/*background: #FFFFFF;*/
-border-radius: 15px 15px 0 0;
-background-color: #1D1D1B;
-}
-
-
-.group{
-    display: flex;
-flex-wrap: wrap;
-}
-.foto1 {
-    margin: 10px 10px ;
-}
-.foto2 {
-    margin: 10px 10px ;
-}
-
-.foto4{
-    margin: 10px 10px ;
-}
-
-.foto3{
-    padding: 10px 10px;
-}
-/*кривая картинка была*/
-.house{
-    -webkit-border-top-left-radius: 10px;
-    -webkit-border-top-right-radius: 10px;
-    -webkit-border-bottom-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-}
-.blocks {
-    flex-wrap: wrap;
+.main_blocks {
     display: flex;
     width: 100%;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
-.blocks .block {
-    display: flex;
-    justify-content: center;
+.main_blocks .main_block {
     position: relative;
-    flex-direction: column;
-    align-items: center;
     padding: 35px 8px 8px 8px;
     margin: 3px;
     border: 1px solid #efefef;
@@ -56,9 +14,9 @@ flex-wrap: wrap;
     -webkit-border-top-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
-
 }
-.blocks .block .circle {
+
+.main_blocks .main_block .circle {
     position: absolute;
     top: 0;
     left: 50%;
@@ -68,7 +26,7 @@ flex-wrap: wrap;
     background-color: #0f4135;
     transform: translate(-50%, -50%);
 }
-.blocks .block .title {
+.main_blocks .main_block .title {
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -81,7 +39,7 @@ flex-wrap: wrap;
     -webkit-border-bottom-right-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
 }
-.blocks .block .text {
+.main_blocks .main_block .text {
     margin: 0 auto;
     text-transform: uppercase;
     background-color: #e1e1e1;
@@ -90,4 +48,20 @@ flex-wrap: wrap;
     font-size: 0.8rem;
     text-align: center;
     padding-top: 20px;
+}
+.main_title{
+
+    Size: 36px;
+    Line-height: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: whitesmoke;
+    letter-spacing: 0.2em;
+    font-family: Codec Pro, sans-serif
+}
+.text{
+    background-image: url(https://avatars.mds.yandex.net/i?id=8c8d1d4c7cbb3bb7b926851b001d9e54-5258118-images-thumbs&n=13);
 }
