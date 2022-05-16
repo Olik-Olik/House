@@ -1,6 +1,9 @@
-.footer{
+.links{
     letter-spacing: 2em;
-text-transform: uppercase;
+    text-transform: uppercase;
+    position: fixed;
+    top:86%;
+
 }
 .aboutMe__main {
     box-sizing: border-box;

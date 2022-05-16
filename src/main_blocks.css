@@ -5,9 +5,10 @@
     flex-wrap: wrap;
 }
 .main_blocks .main_block {
+
     position: relative;
     padding: 35px 8px 8px 8px;
-    margin: 3px;
+    margin: 3px 3px 40px 3px;
     border: 1px solid #efefef;
     flex: 1;
     -webkit-border-top-left-radius: 10px;
@@ -17,13 +18,18 @@
 }
 
 .main_blocks .main_block .circle {
+
     position: absolute;
     top: 0;
     left: 50%;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #0f4135;
+    background:
+linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 60%),
+linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 100%),
+    /* linear-gradient(#E5E5E5, #1D1D1B 60%),*/ linear-gradient(103.91deg, #23D1AE 80%, rgba(1, 50, 35, 0) 60%);
+  /*  background-color: #0f4135;*/
     transform: translate(-50%, -50%);
 }
 .main_blocks .main_block .title {
@@ -50,7 +56,7 @@
     padding-top: 20px;
 }
 .main_title{
-
+    padding-top: 40px;
     Size: 36px;
     Line-height: 40px;
     font-weight: bold;
@@ -62,6 +68,7 @@
     letter-spacing: 0.2em;
     font-family: Codec Pro, sans-serif
 }
-.text{
+/*.text{
     background-image: url(https://avatars.mds.yandex.net/i?id=8c8d1d4c7cbb3bb7b926851b001d9e54-5258118-images-thumbs&n=13);
 }
+*/
