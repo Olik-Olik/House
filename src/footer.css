@@ -2,8 +2,7 @@
     letter-spacing: 2em;
     text-transform: uppercase;
     position: fixed;
-    top:86%;
-
+    top:88%;
 }
 .aboutMe__main {
     box-sizing: border-box;
@@ -13,7 +12,7 @@
 
 
 .aboutMe__strelka-resurs {
-
+    cursor:pointer ;
     align-items: stretch;
     text-transform: uppercase;
     display: flex;

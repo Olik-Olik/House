@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 
 <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
     <link href="../public/favicon.ico" rel="icon"/>
     <link href="../src/about.css" rel="stylesheet">
     <link href="../src/footer.css" rel="stylesheet">
     <link href="../src/main_blocks.css" rel="stylesheet">
+    <link href="../src/main_red.css" rel="stylesheet">
+    <link href="../src/links_catalog.css" rel="stylesheet">
+    <link href="../src/main_podborki.css" rel="stylesheet">
+    <link href="../src/main_project.css" rel="stylesheet">
     <link href="../src/header_combined.css" rel="stylesheet">
     <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <!--  <meta name="theme-color" content="#000000" />-->
+
     <title>House</title>
 </head>
 <body>
@@ -17,8 +23,29 @@
     <section class="header_combined">
         <script type="text/javascript">
             let myDate = new Date();
-            document.write(myDate.getHours() + `:` + myDate.getMinutes());</script>
+            document.write(myDate.getHours() + `:` + myDate.getMinutes() );</script>
         <h1 class="header_title">ИЖС МАРКЕТ</h1>
+<!--____________________________________________________________________________________-->
+        <div class="links_catalog">
+            <div style="display: flex;
+            flex-direction: row;">
+                <div class="aboutMeLinks">
+                    <div class="aboutMe__strelka-resurs">
+                        <img alt="catalog_main" class="foto_book style=height: 80px;" src="../public/util/book.svg">
+                    </div>
+                </div>
+            </div>
+
+                <div>
+                    <div class="aboutMe__strelka-resurs">
+
+                        <img alt="catalog_book" class="foto_strelka style=height: 80px;" src="../public/util/NavigationArrow.svg">
+
+                    </div>
+                </div>
+            </div>
+
+        <!--____________________________________________________________________________________-->
         <div class="header_blocks">
             <div class="header_block-left">Инстаграмные дома напрямую от застройщиков</div>
             <div class="header_block-right">Строительство через мобильное приложение</div>
@@ -32,28 +59,23 @@
                             <div class="circle"></div>
                             <div class="title">Экспертиза работ</div>
                             <img alt="Mult" class="foto1 style=height: 80px;" src="../public/util/house.svg">
-                            <!-- <div class="text" style="height: 80px;">Текст</div>-->
                         </div>
                         <div class="block">
                             <div class="circle"></div>
                             <div class="title">Дом BLYSKAR</div>
                             <img alt="Mult" class="foto2 style=height: 80px;" src="../public/util/house.svg">
-                            <!-- <div class="text" style="height: 80px;">Текст</div>-->
                         </div>
                         <div class="block">
                             <div class="circle"></div>
                             <div class="title">Нас не просили, но мы сделали</div>
-                            <img alt="lamp" class="foto3 style=height: 80px;" src="../public/util/lamp.svg">
-                            <!-- <div class="text" style="height: 60px;">Текст</div>-->
+                            <img alt="lamp" class="foto3 style=height: 80px;" src="../public/util/house.svg">
                         </div>
                         <div class="block">
                             <div class="circle"></div>
                             <div class="title">Инстаграмная лестница</div>
-                            <img alt="tree" class="foto4 style=height: 80px;" src="../public/util/tree.svg">
-                            <!-- <div class="text" style="height: 70px;">Текст</div>-->
+                            <img alt="tree" class="foto4 style=height: 80px;" src="../public/util/house.svg">
                         </div>
                     </div>
-                    <!--  <img src="../public/util/all.png" alt="Mult">-->
                     <!-- <img src="../public/util/house.svg" alt="Mult" class="foto1">
                      <img src="../public/util/house.svg" alt="house" class="foto2">
                      <img src="../public/util/lamp.svg" alt="lamp" class="foto3">
@@ -109,7 +131,7 @@
             <div class="circle"></div>
             <div class="title">Facе одобряет
                 99 проектов</div>
-            <img alt="tree" class="foto4 style=height: 150px;" src="../public/util/cottage.jpg">
+            <img alt="tree" class="foto4 style=height: 150px;" src="../public/util/tree.svg">
         </div>
         <div class="main_block">
             <div class="circle"></div>
@@ -132,7 +154,7 @@
     </div>
 </section>
 
-<section class="main_projects">
+<section class="main_project">
     <h2 class="main_title">НОВЫЕ ПРОЕКТЫ — 12</h2>
     <div class="main_blocks">
         <div class="main_block">
@@ -219,7 +241,7 @@
 
 
 <footer>
-    <div class='links'>
+ <div class='links'>
 <div style="display: flex;
     flex-direction: row;">
         <div class="aboutMeLinks">

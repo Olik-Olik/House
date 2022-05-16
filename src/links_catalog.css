@@ -1,0 +1,24 @@
+.links_catalog{
+width: 90%;
+    letter-spacing: 20em;
+    text-transform: uppercase;
+    position: fixed;
+    top:7%;
+    flex-direction: row;
+    display: flex;
+    /* width: 100vw; */
+    margin-top: 40px;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    font-family: 'Inter', serif;
+    box-sizing: border-box;
+    font-weight: 400;
+    border: 2px solid #3c3838;
+    background-color: #000000;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    background: linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #000000 60%), linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #24241f 100%), /* linear-gradient(#E5E5E5, #313335 60%),*/ linear-gradient(103.91deg, #23D1AE 80%, rgba(1, 50, 35, 0) 60%);
+
+}

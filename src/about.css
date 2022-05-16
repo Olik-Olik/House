@@ -1,13 +1,14 @@
-
-
 html{
+
+    -webkit-border-top-left-radius: 10px;
 font-family: SBSans,Arial,Helvetica,sans-serif;
 position: absolute;
-/*height: 2335px;*/
-/*top: 240px;*/
+height: 2700px;
+top: 0;
 /*background: #FFFFFF;*/
 border-radius: 15px 15px 0 0;
 background-color: #1D1D1B;
+bottom: 30px;
 }
 
 
@@ -37,12 +38,15 @@ flex-wrap: wrap;
     -webkit-border-bottom-left-radius: 10px;
 }
 .blocks {
+
     flex-wrap: wrap;
     display: flex;
     width: 100%;
     margin-top: 40px;
 }
 .blocks .block {
+    cursor: pointer;
+    margin-bottom: 40px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -59,6 +63,7 @@ flex-wrap: wrap;
 
 }
 .blocks .block .circle {
+    background: linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 60%), linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 100%), /* linear-gradient(#E5E5E5, #1D1D1B 60%),*/ linear-gradient(103.91deg, #23D1AE 80%, rgba(1, 50, 35, 0) 60%);
     position: absolute;
     top: 0;
     left: 50%;
