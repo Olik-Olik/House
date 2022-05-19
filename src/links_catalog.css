@@ -1,5 +1,6 @@
 .links_catalog{
-width: 90%;
+    z-index: 10;
+    width: 90%;
     letter-spacing: 20em;
     text-transform: uppercase;
     position: fixed;
