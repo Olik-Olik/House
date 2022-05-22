@@ -1,22 +1,27 @@
 .links{
-    letter-spacing: 2em;
-    text-transform: uppercase;
+    background-color: black;
     position: fixed;
     top:88%;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
+/*
 .aboutMe__main {
     box-sizing: border-box;
     padding-bottom: 0;
 }
+*/
 
 
 
-.aboutMe__strelka-resurs {
+/*.aboutMe__strelka-resurs {
     cursor:pointer ;
     align-items: stretch;
     text-transform: uppercase;
     display: flex;
-    /*align-items: baseline;*/
+    !*align-items: baseline;*!
     height: 50px;
     color: #FFFFFF;
     font-family: Arial,Helvetica,sans-serif;
@@ -24,8 +29,9 @@
     font-Style: normal;
     font-Size: 29px;
     Line-height: 60px;
-}
+}*/
 
+/*
 .aboutMe__myName {
     padding-top: 62px;
     padding-bottom: 8px;
@@ -36,11 +42,14 @@
     font-weight: 400;
     width: 100%;
     background-color: #202020;
+
     color: #FFFFFF;
     font-size: 58px;
     margin: 0;
     display: flex;
 }
+*/
+/*
 
 .aboutMeLinks {
     display: flex;
@@ -49,10 +58,11 @@
 
 .aboutMe__descriptionFoto {
     width: 100%;
-    /*    padding: 0 70px;*/
+    !*    padding: 0 70px;*!
     display: flex;
     background-color: #202020;
 }
+*/
 
 
 .a {
@@ -70,12 +80,12 @@
     font-family: 'Inter', serif;
     box-sizing: border-box;
     font-weight: 400;
-    border: 2px solid #3c3838;
-    background-color: #000000;
+    border: 0 solid #3c3838;
+ /*   background-color: #000000;
     -webkit-border-top-left-radius: 10px;
     -webkit-border-top-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;*/
 }
 
 .aboutMe__connect {
@@ -166,12 +176,18 @@
 @media screen and (min-width: 200px) and (max-width: 620px) {
     .aboutMe__descriptionFoto {
         flex-direction: column-reverse;
+      /*  left: 3px;
+        right: 3px;*/
+        margin-top: 0px;
+        padding-bottom: 0px;
+        right: 0px;
+        left: 0px;
     }
 
-    .aboutMe__main {
+  /*  .aboutMe__main {
         padding-left: 14px;
         padding-right: 14px;
-    }
+    }*/
 
     .aboutMe__whoIS {
         font-family: 'Inter', serif;
@@ -238,42 +254,4 @@
 
 @media screen and (min-width: 600px) and (max-width: 920px) {
 
-    .aboutMe__main {
-        padding-top: 90px;
-        padding-bottom: 0;
-    }
-
-    .aboutMe__myName {
-        Font-size: 40px;
-        Line-height: 40px;
-        padding-top: 66px;
-        padding-bottom: 16px;
-    }
-
-    .aboutMe__work {
-        padding-top: 0;
-        padding-bottom: 20px;
-    }
-
-    .aboutMeTitleAbout {
-        font-size: 12px;
-        Line-height: 18px;
-        max-width: 364px;
-        max-height: 108px;
-        padding-bottom: 87px;
-    }
-
-    .aboutMe__connect {
-        padding-bottom: 90px;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .aboutMe__portfolio {
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 30px;
-    }
 }

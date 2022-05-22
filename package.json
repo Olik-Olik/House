@@ -1,0 +1,38 @@
+{
+  "name": "house",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "git": "^0.1.5",
+    "web-vitals": "^1.1.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "",
+  "main": "index.html",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olik-Olik/House.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olik-Olik/House/issues"
+  },
+  "homepage": "https://github.com/Olik-Olik/House#readme"
+}

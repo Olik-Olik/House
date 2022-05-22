@@ -3,7 +3,8 @@
     -webkit-border-top-right-radius: 10px;
     -webkit-border-bottom-right-radius: 10px;
     -webkit-border-bottom-left-radius: 10px;
-    background: linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 60%),
+   /* background: linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 60%),
     linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 100%),
-        /* linear-gradient(#E5E5E5, #1D1D1B 60%),*/ linear-gradient(103.91deg, #23D1AE 80%, rgba(1, 50, 35, 0) 60%);
+        !* linear-gradient(#E5E5E5, #1D1D1B 60%),*! linear-gradient(103.91deg, #23D1AE 80%, rgba(1, 50, 35, 0) 60%);
+*/
 }
