@@ -251,6 +251,14 @@
         padding-bottom: 14px;
     }
 }
+.foto_main:hover{
+    background-image: linear-gradient(360deg, #68686e 35%, white 5%, #8b8f90 90%);
+    color:black;
+}
+.foto_book-nav:hover{ background-image: linear-gradient(360deg, #68686e 35%, white 5%, #8b8f90 90%);}
+.foto_tree-nav:hover {background-image: linear-gradient(360deg, #68686e 35%, white 5%, #8b8f90 90%);}
+.foto_radio-nav:hover { background-image: linear-gradient(360deg, #68686e 35%, white 5%, #8b8f90 90%);}
+.foto_profile-nav:hover{ background-image: linear-gradient(360deg, #68686e 35%, white 5%, #8b8f90 90%);}
 
 @media screen and (min-width: 600px) and (max-width: 920px) {
 
